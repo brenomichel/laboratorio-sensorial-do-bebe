@@ -22,6 +22,10 @@
   ],
   "rewrites": [
     {
+      "source": "/t",
+      "destination": "https://cashflow.mentoriaprocesso.com/t"
+    },
+    {
       "source": "/t/:path*",
       "destination": "https://cashflow.mentoriaprocesso.com/t/:path*"
     }
